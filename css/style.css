@@ -103,7 +103,7 @@
 
 .two-columns__brief {
   margin: 0 auto;
-  width: 175px;
+  max-width: 175px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -196,11 +196,13 @@
   background-position: left bottom;
   background-size: 867px 637px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feynman__title {
-  margin: 0 auto;
-  padding-top: 100px;
+  margin: 100px auto 0;
   max-width: 648px;
   text-align: center;
   font-size: 120px;
